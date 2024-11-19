@@ -1,8 +1,10 @@
 -Creating a defaul template for starting html code:
     shift+1 then <enter>
 -Images: <img scr=""/>
+CSS:
 -html->css: first link the two files <link rel"stylesheet" href"path to css file"/>
 -css selectors: element, class, id
+BRANCHES:
 -Branch: Different departments of the main project
 -Creating a branch: git branch feature_branch_name
 -Confirm created branch: git branch
@@ -10,7 +12,8 @@
 -Anything under the master branch is what is seen by the user
 -You should not work on code in the main branch but create other branches to work on the code 
  then push it to github once complete i.e the main branch accepts clean completed work.
--To push the created bruch to github: git push -u branch_name
+-To push the created bruch to github: git push -u branch_name. Before this remember to git init, git remote add origin
+ and git add. After git push -u branch_name you can use git push only
 -The pushed branch on github will notify you of its availability through a notification 'create a pull request'
  -steps to merging the created branch to the main branch:
     -click on 'create pull request'
@@ -20,3 +23,6 @@
 -Before pushing your created branches, you should first push the main branch innitially before
  pushing the created branch. Note that pushing the main branch first occurs for a newly created 
  repository which sets the main branch as the default branch afterward you can push the created branches.
+-To rename a new branch:
+ -in the same directory: git branch -m new_branch_name
+ -in a specific directory: git branch -m old_branch_name new_branch_name
