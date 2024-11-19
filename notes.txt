@@ -1,4 +1,4 @@
--Creating a defaul template for starting html code:
+-Creating a default template for starting html code:
     shift+1 then <enter>
 -Images: <img scr=""/>
 CSS:
