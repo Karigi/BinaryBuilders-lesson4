@@ -12,11 +12,13 @@ BRANCHES:
 -Anything under the master branch is what is seen by the user
 -You should not work on code in the main branch but create other branches to work on the code 
  then push it to github once complete i.e the main branch accepts clean completed work.
--To push the created bruch to github: git push -u branch_name. Before this remember to git init, git remote add origin
- and git add. After git push -u branch_name you can use git push only
+-To push the created brunch to github: git push -u origin branch_name. Before this remember to git init, git remote add origin
+ and git add and git commit. After git push -u origin branch_name you can use git push only. 
+ This is only in the initial stage. For consequent steps start from git add then git commit then git push. skip 
+ git remote add origin.
 -The pushed branch on github will notify you of its availability through a notification 'create a pull request'
  -steps to merging the created branch to the main branch:
-    -click on 'create pull request'
+    -click on 'compare & pull request'
     -create a pull request
     -check if changes are good
     -create merge
