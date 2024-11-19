@@ -1,0 +1,5 @@
+Creating a defaul template for starting html code:
+    shift+1 then <enter>
+-Images: <img scr=""/>
+html->css: first link the two files <link rel"stylesheet/text" href"path to css file"/>
+css selectors: element, class, id
